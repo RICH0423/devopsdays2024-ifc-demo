@@ -50,8 +50,7 @@ Pulumi.klotho-rest-api.yaml: Make sure to run `pulumi config set aws:region YOUR
 
 ### compiled output
 - **compiled/klotho-rest-api.png**: Klotho generates a high-level topology diagram showing the cloud resources
-
-![](image/klotho-rest-api.png)
+![](../images/klotho.png)
 - **compiled/klotho.yaml**: Klotho's configuration file, which analyzes annotation and generates corresponding cloud resources
 
 - **compiled/index.ts**: Klotho generates Pulumi program that defines your stack resources.
@@ -109,7 +108,7 @@ execution_units:
             timeout: 180
 ```
 
-
+![](../images/klotho-rest-api-ecs.png)
 
 
 
