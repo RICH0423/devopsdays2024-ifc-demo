@@ -1,9 +1,8 @@
+# This project is to show how to use Klotho to quickly create a cloud-ready REST API with data persistence.
+- [Klotho doc](https://klo.dev/docs/)
+- [Klotho Github repo](https://github.com/klothoplatform/klotho)
 
-# 
-
-This project is to show how to use Klotho to quickly create a cloud-ready REST API with data persistence.
-
-
+![](../images/klotho-rest-api.png)
 
 ## Run the app locally
 
@@ -95,7 +94,7 @@ Updating (aws-dev):
  +      └─ aws:iam:RolePolicyAttachment      klotho-rest-api-user-service-exec    created (0.50s)
 ```
 
-## Change the Klotho configuration (Ececution Unit)
+## Change the Klotho configuration (Execution Unit)
 
 - update the type field in execution_units from lambda to fargate
 ```yaml
