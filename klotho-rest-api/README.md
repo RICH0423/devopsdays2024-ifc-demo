@@ -71,10 +71,10 @@ Pulumi.klotho-rest-api.yaml: Make sure to run `pulumi config set aws:region YOUR
 
 ## Deploying 
 
-Deployment dependencies:
-- Docker 
-- AWS account
-- Pulumi CLI
+- Deployment dependencies:
+  - Docker 
+  - AWS account
+  - Pulumi CLI
 
 - set the pulumi region configuration:
 ```
